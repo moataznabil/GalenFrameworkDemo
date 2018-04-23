@@ -1,10 +1,7 @@
 language: node_js
-node_js:
-  - "iojs"
-  - "7"
 
 before_install:
   - npm install -g galenframework-cli
 
 
-galen test tests/homepage.test.js --htmlreport reports
+script: galen test tests/homepage.test.js --htmlreport reports
