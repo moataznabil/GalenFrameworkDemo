@@ -8,7 +8,6 @@ node_js:
 before_install:
   - npm update npm -g
   - npm install -g galenframework-cli
-  - # start your web application and listen on `localhost`
-  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+
 
 script: galen test tests/homepage.test.js --htmlreport reports
