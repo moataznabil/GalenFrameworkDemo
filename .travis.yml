@@ -8,6 +8,6 @@ node_js:
 before_install:
   - npm update npm -g
   - npm install -g galenframework-cli
-
+  - npm install chrome -g
 
 script: galen test tests/homepage.test.js --htmlreport reports
