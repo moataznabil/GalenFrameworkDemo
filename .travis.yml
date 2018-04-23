@@ -1,7 +1,9 @@
 language: node_js
+node_js:
+ - "node"
 
 before_install:
+  - npm update npm -g
   - npm install -g galenframework-cli
-
 
 script: galen test tests/homepage.test.js --htmlreport reports
