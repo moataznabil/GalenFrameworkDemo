@@ -13,7 +13,7 @@ var devices = {
 
 var browsers = {
   chrome: {
-    browserName: "chrome"
+    browserName: "firefox"
   }
 };
 
