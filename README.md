@@ -2,6 +2,7 @@
 
 This Repository for my LinkedIn Article about how to use Galen Framework in Layout and Responsive testing
 
+[![Build Status](https://travis-ci.org/moataznabil/GalenFrameworkDemo.svg?branch=master)](https://travis-ci.org/moataznabil/GalenFrameworkDemo)
 
 # How to use it
 
