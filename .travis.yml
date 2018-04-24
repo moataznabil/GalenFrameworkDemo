@@ -8,4 +8,4 @@ before_install:
   - npm update npm -g
   - npm install -g galenframework-cli
 
-script: galen test tests/homepage.test.js --htmlreport reports
+script: galen test tests/homepage.test.js -Dwebdriver.chrome.driver=drivers/chromedriver --htmlreport reports
