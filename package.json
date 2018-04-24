@@ -1,3 +1,5 @@
-"scripts": {
-"test":  "galen test tests/homepage.test.js --htmlreport reports"
+{
+  "scripts": {
+    "test": "galen test tests/homepage.test.js --htmlreport reports"
+  }
 }
