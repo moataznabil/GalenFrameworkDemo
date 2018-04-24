@@ -1,11 +1,21 @@
-language: node_js
+dist: trusty
 sudo: required
+
+language: node_js
+node_js: "stable"
+
 addons:
-  chrome: stable
-node_js:
- - "node"
-before_install:
+  firefox: latest
+  apt:
+    sources:
+     - google-chrome
+    packages:
+     - google-chrome-stable fluxbox
+
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 3
+  - fluxbox >/dev/null 2>&1 &
   - npm update npm -g
   - npm install -g galenframework-cli
-
-script: galen test tests/homepage.test.js -Dwebdriver.chrome.driver=drivers/chromedriver --htmlreport reports
