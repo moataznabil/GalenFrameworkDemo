@@ -1,6 +1,8 @@
 # GalenFrameworkDemo
 
 This Repository for my LinkedIn Article about how to use Galen Framework in Layout and Responsive testing
+https://www.linkedin.com/pulse/automated-layout-testing-using-galen-framework-moataz-nabil/
+
 
 [![Build Status](https://travis-ci.org/moataznabil/GalenFrameworkDemo.svg?branch=master)](https://travis-ci.org/moataznabil/GalenFrameworkDemo)
 
