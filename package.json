@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "test": "galen test tests/homepage.test.js -Dwebdriver.gecko.driver=/drivers/geckodriver --htmlreport reports"
+    "test": "galen test tests/homepage.test.js --htmlreport reports"
   }
 }
